@@ -1,0 +1,3 @@
+String string = "example";
+char[] charArray = string.toCharArray();
+System.out.println(Arrays.toString(charArray));
