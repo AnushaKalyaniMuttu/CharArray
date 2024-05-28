@@ -1,0 +1,1 @@
+List<String> strings= Arrays.stream(string.split("")). collect (Collectors. groupingBy (Function.identity(), Collectors.counting).entryset.stream(). filter (e->e.getValue>1). map (Map.Entry::getValue).collect(Collectors.to list());
